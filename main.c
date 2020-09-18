@@ -19,7 +19,7 @@ int main() {
   printf("Enter an int: ");
   // processing sum
   scanf("%d", &num);
-  printf("\nsum is %d.", sum_n(num));
+  printf("%d\nsum is %d.", num, sum_n(num));
   // processing string
   printf("\nEnter a string: ");
   scanf("%s", str);
