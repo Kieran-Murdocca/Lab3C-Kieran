@@ -13,7 +13,7 @@
 int sum_n(int n);
 void print_n(const char *s, int n);
 
-int main() {
+int main(void) {
   int num=0;
   char str[50];
   printf("Enter an int: ");
