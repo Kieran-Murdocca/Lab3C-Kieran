@@ -14,12 +14,12 @@ int sum_n(int n);
 void print_n(const char *s, int n);
 
 int main() {
-  int num;
+  int num=0;
   char str[50];
   printf("Enter an int: ");
   // processing sum
   scanf("%d", &num);
-  printf("sum is %d.", sum_n(num));
+  printf("\nsum is %d.", sum_n(num));
   // processing string
   printf("\nEnter a string: ");
   scanf("%s", str);
